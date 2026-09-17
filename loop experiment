@@ -1,0 +1,11 @@
+import turtle
+import turtle
+t = turtle.Turtle()
+
+def square():
+    for _ in range(4):
+        t.forward(100)
+        t.left(5)
+
+square()
+turtle.done()
