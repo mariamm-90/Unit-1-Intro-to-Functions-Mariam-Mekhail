@@ -28,6 +28,21 @@ def addSquares(iRange):
 addSquares(5)
 
 
+#Star Flower
+def star(length,angle):
+    for i in range(4):
+        for j in range(4):
+            t.toward(length)
+            t.right(5)
+
+def starSpiral(iRange):
+    length = 5
+    for i in range(iRange):
+        star(length,144)
+        length += 5
+starSpiral(60)
+
+
 #function drawing 60 squares, turning 5 degrees after each square and making each successive square bigger
 def drawSpiral():
     length = 5
